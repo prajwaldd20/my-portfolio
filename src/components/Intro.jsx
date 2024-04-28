@@ -16,16 +16,20 @@ const Intro = () => {
         <h1 className="text-4xl lg:text-6xl xl:text-5xl mb-6 lg:mb-8 font-semibold lg:mt-10 dark:text-white " >
           Prajwal Dahake
         </h1>
+       
         <motion.div className="uppercase leading-2 mb-8 font-mono font-semibold">
-          <span className="text-4xl lg:text-4xl font-semibold dark:text-slate-50">I'm a </span>
+          <span className="text-4xl lg:text-4xl font-semibold dark:text-slate-50">I'm a  
+          
+           </span>
           <TypeAnimation
-            sequence={["Learner", 1500, "Programmer", 1500, "Developer", 1500]}
+            sequence={[" Learner", 1500, " Programmer", 1500, " Developer", 1500]}
             speed={50}
-            className="text-5xl lg:text-8xl xl:text-5xl text-blue-600 font-semibold dark:text-green-400 "
+            className="text-3xl lg:text-8xl xl:text-5xl text-blue-600 font-semibold dark:text-green-400 "
             wrapper="span"
             repeat={Infinity}
           />
         </motion.div>
+        
         <p className="text-base lg:text-lg xl:text-xl mb-8 max-w-md lg:max-w-xl font-sans text dark:text-gray-50  text-justify">
         I enjoy creating websites, always honing my skills through real projects. With each task, I grow more proficient, crafting digital experiences that delight users. My journey in web development is a continuous adventure, filled with learning and innovation. Through practice and dedication, I strive to create impactful solutions that make a difference.
         </p>
