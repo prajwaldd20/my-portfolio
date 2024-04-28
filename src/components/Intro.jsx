@@ -49,7 +49,7 @@ const Intro = () => {
         <motion.img
           src="images/myimage.jpg"
           alt="My Image"
-          className="h-auto lg:max-h-96 lg:max-w-96 rounded-full shadow-2xl p-1 lg:mr-24  bg-slate-400 dark:shadow-md dark:shadow-slate-100 transform transition-transform hover:scale-105"
+          className="h-auto w-4/6 lg:max-h-96 lg:max-w-96 rounded-full shadow-2xl p-1 lg:mr-24  bg-slate-400 dark:shadow-md dark:shadow-slate-100 transform transition-transform hover:scale-105 mb-12"
         //   variants={fadeIn("right, 0.5")}
         //   initial="hidden"
         //   whileInView={"show"}

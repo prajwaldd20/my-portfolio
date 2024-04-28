@@ -49,17 +49,22 @@ useEffect(() => {
   });
 }, []);
   return (
+   
+   
     <>
     {
       loading ?
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <RingLoader
-      color={"#0096FF"}
-      loading={loading}
-
-      size={600}
-      aria-label="Loading Spinner"
-      data-testid="loader"
-    />
+        color={"#0096FF"}
+        loading={loading}
+        size={80}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+    </div>
+    
+    
       :
 <ThemeProvider value={{themeMode, lightTheme, darkTheme }}>
      <Navbar/>
@@ -81,7 +86,7 @@ useEffect(() => {
      </ThemeProvider>
     }
      
-    </>
+     </>
   )
 }
 
