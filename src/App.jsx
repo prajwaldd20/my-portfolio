@@ -9,17 +9,19 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import { useEffect, useState } from 'react'
 import { ThemeProvider } from './context.js/Context.js'
-import RingLoader from "react-spinners/ClipLoader";
+import RingLoader from "react-spinners/RingLoader";
 function App() {
   const [themeMode, setThemeMode] = useState("dark")
  
 const [loading, setLoading] = useState(false)
+
+
 useEffect(()=>
 {
   setLoading(true)
   setTimeout(()=>{
     setLoading(false)
-  }, 8000)
+  }, 2000)
 }, [])
  const lightTheme =()=>{
   setThemeMode("light")
@@ -53,7 +55,8 @@ useEffect(() => {
       <RingLoader
       color={"#0096FF"}
       loading={loading}
-      size={150}
+
+      size={1500}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
