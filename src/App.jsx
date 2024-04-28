@@ -56,7 +56,7 @@ useEffect(() => {
       color={"#0096FF"}
       loading={loading}
 
-      size={1500}
+      size={600}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
