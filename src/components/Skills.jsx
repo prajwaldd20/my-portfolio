@@ -11,9 +11,9 @@ const Skills = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 dark:text-green-500 ">Development</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            <SkillCard imageUrl={"/images/html.png"} skillName={"HTML"} />
-            <SkillCard imageUrl={"/images/css.png"} skillName={"CSS"} />
-            <SkillCard imageUrl={"/images/js.png"} skillName={"JavaScript"} />
+            <SkillCard imageUrl={"/images/html5.png"} skillName={"HTML"} />
+            <SkillCard imageUrl={"/images/css3.png"} skillName={"CSS"} />
+            <SkillCard imageUrl={"/images/jslogo.jpeg"} skillName={"JavaScript"} />
             <SkillCard imageUrl={"/images/react.png"} skillName={"React JS"} />
             <SkillCard imageUrl={"/images/node.png"} skillName={"Node JS"} />
             <SkillCard imageUrl={"/images/tw.png"} skillName={"Tailwind CSS"} />
