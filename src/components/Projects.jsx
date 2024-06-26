@@ -22,11 +22,11 @@ const Projects = () => {
           githubLink="https://github.com/prajwaldd20/CodeClauseInternship_MusicPlayer"
         />
         <Card
-          imgUrl="/images/todo.jpg"
-          imgAlt="ToDo App"
+          imgUrl="/images/gemini.jpg"
+          imgAlt="Gemini Clone"
           ProjectNo="Project 3"
-          ProjectName="To Do Web App or Task Manager"
-          description="It is a basic To Do Application. It is made using React. The features include - add, remove, update or delete a task."
+          ProjectName="Google Gemini Clone"
+          description="It is a clone of Google Gemini using React and Tailwind CSS. It is fully functional and uses the Gemini API."
         />
         <Card
           imgUrl="/images/twitter.png"
