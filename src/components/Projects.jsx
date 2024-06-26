@@ -27,12 +27,14 @@ const Projects = () => {
           ProjectNo="Project 3"
           ProjectName="Google Gemini Clone"
           description="It is a clone of Google Gemini using React and Tailwind CSS. It is fully functional and uses the Gemini API."
+          githubLink = "https://github.com/prajwaldd20/Gemini-Clone"
         />
         <Card
           imgUrl="/images/twitter.png"
           imgAlt="Twitter Sentiment Analysis"
           ProjectNo="Project 4"
           ProjectName="Twitter Sentiment Analysis using ML"
+          githubLink = "https://github.com/prajwaldd20/Twitter-Sentiment-Analysis"
           description="In this ML project, I have performed sentiment analysis on Twitter aka X data. The project is based on NLP. The major tech stack includes - Python, Numpy, Pandas, Scikit Learn, Textblob, & other necessary libraries."
         />
       </div>
